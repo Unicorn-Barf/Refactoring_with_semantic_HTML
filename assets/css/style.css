@@ -12,7 +12,6 @@ body {
 
 /* Sets the padding and color around Header content */
 /* Sets Font and Text color */
-/* Ensure elements are inline */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,15 +51,13 @@ li {
     margin-left: 25px;
 }
 
-/* Formats the link text */
+/* Formats the link text in nav bar*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-
-
-
+/* Format Banner image */
 figure {
     height: 800px;
     width: 100%;
@@ -70,12 +67,14 @@ figure {
     background-position: center;
 }
 
+/* Formats the Main content section to 75% of page width and inline with margin */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Formats the Main content section */
 .main-style {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,33 +84,36 @@ main {
     color: #ffffff;
 }
 
-.main-style img {
+/* Sets Main content images height */
+.main-image {
     max-height: 200px;
 }
 
-.main-style h2 {
+/* Formats Main content headers */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/* Formats Main content description font size */
 p {
     font-size: 16px;
 }
 
+/* Class ID to position Main Content Images to left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class ID to position Main Content Images to right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-
-
-.benefits {
+/* Sets Format of side bar content */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -122,62 +124,32 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Sets aside sections font color and bottom spacing */
+.aside-style {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Sets Aside header position and indentation space */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Displays aside images in block style, centered, and sets width */
+.aside-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
+/* Formats The Footer section */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
+
+
